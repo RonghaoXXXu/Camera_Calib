@@ -1,0 +1,20 @@
+一、标定相机参数
+Matlab标定工具箱   OpenCV例程   ROS 例程
+1、打印一张棋盘格，把它贴在一个平面上，作为标定物。
+2、通过调整标定物或摄像机的方向，为标定物拍摄一些不同方向的照片。
+3、在图片中检测特征点（Harris特征）。内角点。
+4、利用解析解估算方法计算出五个内参和六个外参。
+5、根据极大似然估计策略，设计优化目标并提升参数的估计精度。
+7、世界坐标系的制作问题。
+原理：https://blog.csdn.net/lql0716/article/details/71973318?locationNum=8&fps=1%EF%BC%89
+实现：http://www.2cto.com/kf/201610/559735.html
+https://blog.csdn.net/Kano365/article/details/90721424?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight  
+
+二、立体双目测距
+https://blog.csdn.net/u011808673/article/details/90641589?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+
+#重要
+https://blog.csdn.net/bcj296050240/article/details/52778741?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+https://blog.csdn.net/xiao__run/article/details/78900652
+https://www.bilibili.com/video/av8862669/
+https://blog.csdn.net/cyem1/article/details/81712994?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
